@@ -1,0 +1,6 @@
+{
+    "api_key": "G6AU37H2QRLFE3EXREKR57CHN",
+    "base_url": "https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/",
+    "mongo_uri": "mongodb://localhost:27017/",
+    "mongo_db": "weather_data"
+}

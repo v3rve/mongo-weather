@@ -1,0 +1,17 @@
+{
+    "Kołobrzeg": {
+        "latitude": 54.175919,
+        "longitude": 15.583267,
+        "weather": []
+    },
+    "Stalowa Wola": {
+        "latitude": 50.5786,
+        "longitude": 22.0533,
+        "weather": []
+    },
+    "Warszawa": {
+        "latitude": 52.2297,
+        "longitude": 21.0122,
+        "weather": []
+    }
+}

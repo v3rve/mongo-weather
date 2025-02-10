@@ -1,0 +1,26 @@
+version: '3.8'
+services:
+  app:
+    build: .
+    volumes:
+      - ./config/config_locations.json:/app/config/config_locations.json
+    environment:
+      MONGO_URI: mongodb://mongodb:27017/
+      MONGO_DB: weather_data_iso
+      DATE_START: "2024-03-01"
+      DATE_END: "2024-03-09"
+      FR_PARAM: 0
+
+    depends_on:
+      - mongodb
+    command: python app_main.py
+
+  mongodb:
+    image: mongo:4.4
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+
+volumes:
+  mongo-data:

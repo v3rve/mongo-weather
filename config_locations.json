@@ -1,0 +1,17 @@
+{
+    "Stargard": {
+        "latitude": 53.3367,
+        "longitude": 15.0444,
+        "weather": []
+    },
+    "Stalowa Wola": {
+        "latitude": 50.5786,
+        "longitude": 22.0533,
+        "weather": []
+    },
+    "Warszawa": {
+        "latitude": 52.2297,
+        "longitude": 21.0122,
+        "weather": []
+    }
+}
